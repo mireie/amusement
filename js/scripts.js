@@ -53,11 +53,15 @@ $(document).ready(function() {
       $("#ride6").addClass("cant-ride");
       }
     $("#output").show();
-
-
-
-
-
+  
+    //Insult text
+    if (height < 48) {
+      $("#rudeHeight").text("shorty");
+    } else if (height >= 48 && height <= 72) {
+      $("#rudeHeight").text("you completely average person");
+    } else {
+      $("#rudeHeight").text("skyscraper");
+    }
 
 
   });
@@ -66,6 +70,6 @@ $(document).ready(function() {
     $("#output").hide();
   });
   
-  //Insult text
+
 
 });
