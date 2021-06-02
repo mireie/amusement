@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>You must be this tall to ride</title>
+  <script src="js/jquery-3.6.0.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">This is where the header goes.
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <h2>Ride selector!</h2>
+        <p>Enter your height to see which rides were made for your very special occasion.</p>
+        <form id="heightCalc">
+          <div class="form-group">
+            <label for="feet">Feet:</label>
+            <input id="feet" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+            <label for="inches">Inches:</label>
+            <input id="inches" class="form-control" type="number">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit!</button>
+        </form>
+        <div class="entered-height">
+          <p>You entered <span id="userFeet"></span>', <span id="userInches"></span>' inches. Here's the rides for you, <span id="rudeHeight"></span>.</p>
+          <button type="button" class="btn btn-warning">I want to try another height</button>
+        </div>
+      </div>
+      <div class="col-md-9 rides">
+        <h2>Rides!</h1>
+        <div class="row row-cols-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card project-card" id="ride1">
+              <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Grand Canyon Slide!</h5>
+                <p class="card-text">Slide 1/32nd the height of the Grand Canyon!.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card project-card" id="ride2">
+              <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Spinning Armadillos</h5>
+                <p class="card-text">Use that handle to spin!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card project-card" id="ride3">
+              <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Southwestern Go-carts</h5>
+                <p class="card-text">Requires valid license! Yee-haw.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card project-card" id="ride4">
+              <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Whirly Dirly from Tuscaloosa</h5>
+                <p class="card-text">Spins you around, quickly. Do not eat before hand.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card project-card" id="ride5">
+              <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">The Zipper</h5>
+                <p class="card-text">Not for the Amish.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card project-card" id="ride6">
+              <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">New Mexico Ring Toss</h5>
+                <p class="card-text">Available to everybody below 6 ft tall. No cheating.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>

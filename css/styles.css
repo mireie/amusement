@@ -1,0 +1,9 @@
+.header {
+  height:200px;
+  background-image: url("https://bjornfree.com/travel/wp-content/uploads/2019/01/DSC00431ThePineappleRail.jpg");
+  background-size:cover;
+  background-position: 50% 60%;
+}
+.entered-height {
+  display:none;
+}
