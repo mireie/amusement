@@ -7,12 +7,16 @@
 .entered-height {
   display:none;
 }
+
 .can-ride {
-  background-color:green;
+  border: solid green 2px;
 }
 .cant-ride {
-  background-color:red;
-  display:none;
+  opacity:.3;
+}
+
+.cant-ride.img {
+
 }
 
 body {
@@ -30,4 +34,7 @@ body {
 }
 #output {
   display:none;
+}
+.rides {
+  padding-bottom:1rem;
 }
