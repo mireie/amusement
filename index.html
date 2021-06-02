@@ -12,8 +12,9 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet">
-  <title>You must be this tall to ride</title>
   <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>You must be this tall to ride</title>
 </head>
 <body>
   <div class="container">
@@ -33,10 +34,10 @@
             <input id="inches" class="form-control" type="number">
           </div>
           <button type="submit" class="btn btn-primary">Submit!</button>
+          <button type="reset" class="btn btn-warning" id="reset">Reset</button>
         </form>
-        <div class="entered-height">
-          <p>You entered <span id="userFeet"></span>', <span id="userInches"></span>' inches. Here's the rides for you, <span id="rudeHeight"></span>.</p>
-          <button type="button" class="btn btn-warning">I want to try another height</button>
+        <div id="output">
+          <p>You entered <span id="userFeet"></span>' <span id="userInches"></span>". Here's the rides for you, <span id="rudeHeight"></span>.</p>
         </div>
       </div>
       <div class="col-md-9 rides">
@@ -92,7 +93,7 @@
               <img src="https://via.placeholder.com/350x150" alt="Paradise Island Screenshot" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">New Mexico Ring Toss</h5>
-                <p class="card-text">Available to everybody below 6 ft tall. No cheating.</p>
+                <p class="card-text">Available to shorter people. No cheating.</p>
               </div>
             </div>
           </div>

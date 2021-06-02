@@ -7,3 +7,27 @@
 .entered-height {
   display:none;
 }
+.can-ride {
+  background-color:green;
+}
+.cant-ride {
+  background-color:red;
+  display:none;
+}
+
+body {
+  background-color: rgb(182, 176, 176);
+}
+.container {
+  background-color: white;
+  max-width:80%;
+}
+.btn:first-of-type {
+  margin-right:1rem;
+}
+.btn {
+  margin:1rem auto;
+}
+#output {
+  display:none;
+}
