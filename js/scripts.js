@@ -80,7 +80,7 @@ $(document).ready(function() {
   $("button#reset").click(function() {
     $("#ride1, #ride2, #ride3, #ride4, #ride5, #ride6").removeClass();
     $("#output").hide();
-    ("#ride1img, #ride2img, #ride3img, #ride4img, #ride5img, ").attr("src","images/can-ride.png")
+    $("#ride1img, #ride2img, #ride3img, #ride4img, #ride5img, ").attr("src","images/can-ride.png")
   });
   
 
