@@ -24,45 +24,45 @@ $(document).ready(function() {
     
     if (height > 36) {
       $("#ride1").addClass("can-ride");
-      $("#ride1img").attr("src","/images/can-ride.png");
+      $("#ride1img").attr("src","images/can-ride.png");
     } else {
       $("#ride1").addClass("cant-ride");
-      $("#ride1img").attr("src","/images/cant-ride.png");
+      $("#ride1img").attr("src","images/cant-ride.png");
       }
     if (height < 48) {
       $("#ride2").addClass("can-ride");
-      $("#ride2img").attr("src","/images/can-ride.png");
+      $("#ride2img").attr("src","images/can-ride.png");
     } else {
       $("#ride2").addClass("cant-ride");
-      $("#ride2img").attr("src","/images/cant-ride.png");
+      $("#ride2img").attr("src","images/cant-ride.png");
       }
     if (height >= 48 && height <= 60) {
       $("#ride3").addClass("can-ride");
-      $("#ride3img").attr("src","/images/can-ride.png");
+      $("#ride3img").attr("src","images/can-ride.png");
     } else {
       $("#ride3").addClass("cant-ride");
-      $("#ride3img").attr("src","/images/cant-ride.png");
+      $("#ride3img").attr("src","images/cant-ride.png");
       }
     if (height > 60) {
       $("#ride4").addClass("can-ride");
-      $("#ride4img").attr("src","/images/can-ride.png");
+      $("#ride4img").attr("src","images/can-ride.png");
     } else {
       $("#ride4").addClass("cant-ride");
-      $("#ride4img").attr("src","/images/cant-ride.png");
+      $("#ride4img").attr("src","images/cant-ride.png");
       }
     if (height >= 48 && height <= 72) {
       $("#ride5").addClass("can-ride");
-      $("#ride5img").attr("src","/images/can-ride.png");
+      $("#ride5img").attr("src","images/can-ride.png");
     } else {
       $("#ride5").addClass("cant-ride");
-      $("#ride5img").attr("src","/images/cant-ride.png");
+      $("#ride5img").attr("src","images/cant-ride.png");
       }
     if (height < 66) {
       $("#ride6").addClass("can-ride");
-      $("#ride6img").attr("src","/images/can-ride.png");
+      $("#ride6img").attr("src","images/can-ride.png");
     } else {
       $("#ride6").addClass("cant-ride");
-      $("#ride6img").attr("src","/images/cant-ride.png");
+      $("#ride6img").attr("src","images/cant-ride.png");
       }
     $("#output").show();
   
